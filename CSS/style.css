@@ -5,11 +5,12 @@ html, body, .container-fluid{
 
 /*-----------------------------NAVBAR-----------------------------------------------------------------*/
 .navbar{
-  background: none;
-  height: 5%;
+  background: white;
+  height: 8%;
 }
 #nav-collapse{
-  background: transparent;
+  background: white;
+    width: 100%;
 }
 
 .navbar-default .navbar-brand {
@@ -101,6 +102,12 @@ body {
     text-align: centered;
 }
 
+.legal {
+    font-size: 1em;
+    margin: 10px 50px 50px 50px;
+    text-align: left;
+}
+
 @media screen and (max-width:850px){
     .aboutP{
         font-size: 1em;
@@ -149,7 +156,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 95vh;
+  height: 90vh;
   padding-bottom: 100px;
 }
 
@@ -176,7 +183,7 @@ body {
 footer {
   position: relative;
   width: 100%;
-  height: 5vh;
+  height: 10vh;
     font-family: 'Rokkitt', serif;
     font-size: 1em;
     background: #F8F8F8;
